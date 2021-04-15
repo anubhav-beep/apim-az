@@ -42,11 +42,12 @@
       },
       "zone": {
         "type": "string",
-        "defaultValue": [
-          "1",
-          "2",
-          "3"
-        ],
+        "defaultValue": "1, 2, 3",
+      "allowedValues": [
+        "1",
+        "2",
+        "3"
+      ],
         "metadata": {
           "description": "Zone number for the Api Management service."
         }
