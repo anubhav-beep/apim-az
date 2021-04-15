@@ -42,8 +42,7 @@
       },
       "zone": {
         "type": "string",
-        "defaultValue": "1, 2, 3",
-        "allowedValues": [
+        "defaultValue": [
           "1",
           "2",
           "3"
